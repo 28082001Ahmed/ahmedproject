@@ -1,0 +1,131 @@
+body {
+    /* background-color: #8d6a9f; */
+    /* background-color: linear-gradient(60deg, black 70%, silver 30%,); */
+    height: fit-content;
+    /* display: flex; */
+}
+ header {
+     /* background-color: rgb(41, 39, 37); */
+     background: linear-gradient(black,silver);
+     height: 20vh;
+     display: flex; 
+     /* justify-content:center ; */
+     align-items:  center;
+     flex-direction: column;
+ }
+ .logo{
+    background-image:url("./images.jpg") ;
+    height: 50%;
+    width:100%;
+     
+ }
+ .text{
+    background-color: black;
+    color: antiquewhite;
+    height: 50%;
+    width: 100%;
+ }
+ h1{
+
+ }
+
+
+
+ main {
+     /* background-color: rgb(5, 5, 5); */
+     /* background: linear-gradient(60deg black 70% silver 30%); */
+     background: linear-gradient(black 70%,silver 30%);
+     height: 80%;
+     border: solid;
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .black {
+     /* border: solid  ; */
+     /* background-color: rgb(2, 5, 4); */
+     height: 50vh;
+
+     display: flex;
+     flex-direction: column;
+
+ }
+.images{
+    /* border: solid rgb(15, 9, 9); */
+    /* background-image: linear-gradient(30deg black 90% silver 10%); */
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+     /* align-items: center; */
+    justify-content: space-evenly;
+    overflow-y: scroll; 
+     
+} 
+ #one{
+    background-image: url("./one.png");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#two{
+    background-image: url("./two.png");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#three{
+    background-image: url("./three.jpg");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#four{
+    background-image: url("./four.jpg");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#five{
+    background-image: url("./five.jpg");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#six{
+    background-image: url("./video.mp4");
+    height: 150px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+     background-color:rgba(255, 0, 0, 0.5);
+     height: 20%; 
+     display: flex;
+     align-items: center;
+ }
